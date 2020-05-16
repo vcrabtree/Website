@@ -1,0 +1,193 @@
+/*
+    style.css 
+*/
+
+/* ========================================================= */
+/*  IMPORTS for fonts 
+
+    Resource:  fonts.google.com
+*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+/* ========================================================= */
+/*  Body Style Rules */
+
+body {
+    background-color: #7092BF;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.footer {
+    background-color: white;
+    font-size: 14px;
+    color: #D66A3F;
+    vertical-align: middle;
+    height: 100px;
+    line-height: 0.25;
+}
+
+
+/* ========================================================= */
+/* Text Style Rules */
+p {
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+ul {
+    font-family: 'Muli', sans-serif;
+    color: #D66A3F;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Signika', sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+
+/* ========================================================= */
+/*  Container and Spacer Rules */
+
+.text-spacing {
+    padding: 0.25em;
+}
+
+.section-spacing {
+    padding: 1.0em;
+}
+
+.placeholder-spacing {
+    height: 500px;
+}
+
+/* ========================================================= */
+/* Color Style Rules
+
+    Reference:  coolors.co
+    
+    Red: #C42922
+    Grey: #D3D3D3
+    White: #F2F2F2
+    Dark Grey: #A9A9A9
+*/
+.color-1 {
+    color: white;
+    background-color: #C42922;
+}
+
+.color-2 {
+    color: #D3D3D3;
+    background-color: white;
+}
+
+.color-3 {
+    color: black;
+    background-color: #F2F2F2;
+}
+
+.color-4 {
+    color: white;
+    background-color: #A9A9A9;
+}
+
+/* ========================================================= */
+/* Button Styles */
+.btn {
+    background-color: white;
+    color: #7092BF;
+}
+
+.btn btn-primary {
+    text-align: center;
+}
+
+/* ========================================================= */
+/* Links Style */
+
+
+/* ========================================================= */
+/* Card Styles */
+
+
+/* ========================================================= */
+/* Tab Styles */
+.nav-link {
+    font-family: 'Signika', 'sans-serif';
+    color: #D66A3F;
+    background-color: white;
+}
+
+.tab-pane {
+    color: #D66A3F;
+    background-color: white;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #D66A3F;
+    color: white;
+}
+
+
+/* ========================================================= */
+/* Accordion Styles */
+
+.card.mb-1,
+.card {
+    font-family: 'Signika', 'sans-serif';
+    color: #D66A3F;
+    background-color: white;
+}
+
+.card-header {
+    background-color: #D66A3F;
+}
+
+.card-header a {
+    color: white;
+}
+
+/* ========================================================= */
+/* Modal Style */
+
+.modal-content {
+    text-align: left;
+}
+
+/* ========================================================= */
+/* Image Styles */
+
+.pic-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ========================================================= */
+/* Navbar */
+.nav-background {
+    background-color: #7092BF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    background-color: #7092BF;
+    color: white;
+    font-size: 20px;
+}
