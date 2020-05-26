@@ -13,19 +13,65 @@
 /* ========================================================= */
 /*  Body Style Rules */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
+    background-color: #FCF5C7;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#introduction {
+    height: 750px;
+}
+
+#projects {
+    height: auto;
     background-color: #7092BF;
 }
 
-.centerText {
-    text-align: center;
+#project-left {
+    width: 50%;
+    float: left;
+}
+
+#project-right {
+    width: 50%;
+    float: right;
+}
+
+.break {
+    height: 25px;
+}
+
+#contact {
+    height: 300px;
+    background-color: #B95F89;
+}
+
+#footer {
+    height: 100px;
+}
+
+#footer-left {
+    width: 50%;
+    float: left;
+}
+
+#footer-right {
+    width: 50%;
+    float: right;
 }
 
 /* ========================================================= */
 /* Text Style Rules */
 p {
     font-family: 'Muli', sans-serif;
-    color: white;
+    color: #7092BF;
 }
 
 h1,
@@ -35,14 +81,33 @@ h4,
 h5,
 h6 {
     font-family: 'Signika', sans-serif;
-    color: white;
+    color: #7092BF;
 }
 
 a {
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+    color: #7092BF;
+}
+
+a:hover {
+    color: #B95F89;
+}
+
+strong {
+    color: #B95F89;
+}
+
+#project-text-left {
     color: white;
 }
 
-.blackText {
+#project-text-right {
+    color: white;
+    text-align: right;
+}
+
+#footer-text-left {
     color: black;
 }
 
@@ -64,8 +129,13 @@ a {
 /* ========================================================= */
 /* Button Styles */
 .btn {
-    background-color: white;
-    color: #7092BF;
+    background-color: #B95F89;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #7092BF;
 }
 
 .btn btn-primary {
@@ -79,17 +149,17 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
 }
-
 
 /* ========================================================= */
 /* Navbar */
 .nav-background {
-    background-color: #7092BF;
+    background-color: #FCF5C7;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    background-color: #7092BF;
-    color: white;
+    background-color: #FCF5C7;
+    color: #7092BF;
     font-size: 20px;
 }
