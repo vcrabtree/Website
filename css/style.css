@@ -151,15 +151,3 @@ strong {
     margin-right: auto;
     border-radius: 50%;
 }
-
-/* ========================================================= */
-/* Navbar */
-.nav-background {
-    background-color: #FCF5C7;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    background-color: #FCF5C7;
-    color: #7092BF;
-    font-size: 20px;
-}
